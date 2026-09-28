@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\velora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:velora.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|d:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9822A38E-C912-46D2-0639-C13F7DB43757}|velora.csproj|solutionrelative:controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Models\\Event.cs",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Models\\Event.cs",
+              "RelativeToolTip": "Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T08:09:26.684Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-27T15:46:15.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-09-27T15:45:18.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "velora.csproj",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\velora.csproj",
+              "RelativeDocumentMoniker": "velora.csproj",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\velora.csproj",
+              "RelativeToolTip": "velora.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-27T15:38:24.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Services\\EventService.cs",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Services\\EventService.cs",
+              "RelativeToolTip": "Services\\EventService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T14:49:42.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T08:13:51.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EventController.cs",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Controllers\\EventController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T08:11:41.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Services\\IEventService.cs",
+              "RelativeDocumentMoniker": "Services\\IEventService.cs",
+              "ToolTip": "D:\\2026\\\u044F\u043D\u0434\u0435\u043A\u0441 \u043F\u0440\u0430\u043A\u0442\u0438\u043A\u0443\u043C\\velora\\Services\\IEventService.cs",
+              "RelativeToolTip": "Services\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T08:10:46.908Z"
             }
           ]
         }
