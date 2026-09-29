@@ -4,10 +4,10 @@ namespace velora.Services
 {
     public interface IEventService
     {
-        List<Event> GetEvents();
-        Event? GetEventById(int Id);
-        Event AddEvent(Event Event);
-        Event? ChangeEvent(int Id, Event Event);
+        List<EventResponseDto> GetEvents();
+        EventResponseDto? GetEventById(int Id);
+        EventResponseDto AddEvent(EventRequestDTO Event);
+        EventResponseDto? ChangeEvent(int Id, EventRequestDTO Event);
         bool RemoveEvent(int Id);
     }
 

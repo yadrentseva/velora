@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[velora.Event, velora, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[velora.Models.EventResponseDto, velora, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "newEvent",
-        "Type": "velora.Event",
+        "Type": "velora.Models.EventRequestDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "velora.Event",
+        "Type": "velora.Models.EventResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "velora.Event",
+        "Type": "velora.Models.EventResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,13 +86,13 @@
       },
       {
         "Name": "updatedEvent",
-        "Type": "velora.Event",
+        "Type": "velora.Models.EventRequestDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "velora.Event",
+        "Type": "velora.Models.EventResponseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

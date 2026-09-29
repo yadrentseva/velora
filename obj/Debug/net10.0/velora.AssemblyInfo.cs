@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("velora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3536bfbc1e3234251b12733fb0c73937698089b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1582cb0bb0703e0b734e0aa166901161a944fb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("velora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("velora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

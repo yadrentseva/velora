@@ -6,28 +6,28 @@ namespace velora.Controllers
 {
     [ApiController]
     [Route("api/events")]
-    public class EventController(IEventService _eventService): ControllerBase
+    public class EventController(IEventService _eventService) : ControllerBase
     {
         
         [HttpGet]
-        public ActionResult<List<Event>> Get()
+        public ActionResult<List<EventResponseDto>> Get()
         {
-            var events = _eventService.GetEvents();
-            return Ok(events);
+            var result = _eventService.GetEvents();
+            return Ok(result);
         }
                 
         [HttpGet("{id:int}")]
-        public ActionResult<Event> Get(int id)
+        public ActionResult<EventResponseDto> Get(int id)
         {
-            var _event = _eventService.GetEventById(id);
-            if (_event is null)
+            var result = _eventService.GetEventById(id);
+            if (result is null)
                 return NotFound();
 
-            return Ok(_event); 
+            return Ok(result); 
         }
 
         [HttpPost]
-        public ActionResult<Event> Post([FromBody] Event newEvent)
+        public ActionResult<EventResponseDto> Post([FromBody] EventRequestDTO newEvent)
         {
             if (!ModelState.IsValid)
             {
@@ -40,7 +40,7 @@ namespace velora.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public ActionResult<Event> Put(int id, [FromBody] Event updatedEvent)
+        public ActionResult<EventResponseDto> Put(int id, [FromBody] EventRequestDTO updatedEvent)
         {
             if (!ModelState.IsValid)
             {
@@ -65,4 +65,5 @@ namespace velora.Controllers
         }
         
     }
+
 }

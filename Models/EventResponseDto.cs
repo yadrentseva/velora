@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace velora.Models
+﻿namespace velora.Models
 {
-    public class Event
+    public class EventResponseDto
     {
         public int Id { get; set; }
 
@@ -11,7 +9,7 @@ namespace velora.Models
         public string? Description { get; set; }
 
         public DateTime? StartAt { get; set; }
-        
+
         public DateTime? EndAt { get; set; }
 
     }

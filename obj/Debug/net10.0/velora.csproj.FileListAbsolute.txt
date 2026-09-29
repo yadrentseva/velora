@@ -36,3 +36,8 @@ D:\2026\яндекс практикум\velora\obj\Debug\net10.0\velora.pdb
 D:\2026\яндекс практикум\velora\obj\Debug\net10.0\velora.genruntimeconfig.cache
 D:\2026\яндекс практикум\velora\obj\Debug\net10.0\ref\velora.dll
 D:\2026\яндекс практикум\velora\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\2026\яндекс практикум\velora\bin\Debug\net10.0\AutoMapper.dll
+D:\2026\яндекс практикум\velora\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+D:\2026\яндекс практикум\velora\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\2026\яндекс практикум\velora\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+D:\2026\яндекс практикум\velora\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
