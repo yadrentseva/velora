@@ -1,6 +1,6 @@
-using velora;
 using velora.Extensions;
 using velora.Handlers;
+using velora.Mapping;
 using velora.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,8 +24,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseExceptionHandler();
 
 app.UseExceptionHandler();
 

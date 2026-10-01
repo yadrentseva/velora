@@ -17,7 +17,7 @@ public static class WebAPIExtensions
                 var problemDetails = problemDetailsFactory.CreateValidationProblemDetails(
                     context.HttpContext,
                     context.ModelState,
-                    statusCode: StatusCodes.Status422UnprocessableEntity);
+                    statusCode: StatusCodes.Status400BadRequest);
 
                 problemDetails.Title = "Validation Failed";
                 problemDetails.Detail = "One or more validation errors occurred.";

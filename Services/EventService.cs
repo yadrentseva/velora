@@ -9,22 +9,21 @@ namespace velora.Services
 
         public List<EventResponseDto> GetEvents()
         {
-            var eventsDto = new List<EventResponseDto>();
-            foreach (Event _event in Events)
-            {
-                eventsDto.Add(mapper.Map<EventResponseDto>(_event));
-            }
+            var eventsDto = Events.Select(mapper.Map<EventResponseDto>).ToList(); 
             return eventsDto;
         }
 
         public EventResponseDto? GetEventById(int id)
         {
             var _event = Events.Find(e => e.Id == id);
+            if (_event == null)
+                return null;
+
             var eventDto = mapper.Map<EventResponseDto>(_event);
             return eventDto;
         }
 
-        public EventResponseDto AddEvent(EventRequestDTO newEvent)
+        public EventResponseDto AddEvent(EventRequestDto newEvent)
         {
             var _event = mapper.Map<Event>(newEvent);
             _event.Id = (Events.Count == 0) ? 1 : Events.Max(e => e.Id) + 1; 
@@ -34,13 +33,13 @@ namespace velora.Services
             return eventDto;
         }
 
-        public EventResponseDto? ChangeEvent(int id, EventRequestDTO updatedEvent)
+        public EventResponseDto? ChangeEvent(int id, EventRequestDto updatedEvent)
         {
             var _event = Events.Find(e => e.Id == id);
             if (_event == null)
                 return null;
 
-            mapper.Map<EventRequestDTO, Event>(updatedEvent, _event);
+            mapper.Map<EventRequestDto, Event>(updatedEvent, _event);
 
             var _eventDto = mapper.Map<EventResponseDto>(_event);
             return _eventDto;

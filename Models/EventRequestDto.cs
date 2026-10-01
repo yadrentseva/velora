@@ -2,7 +2,7 @@
 
 namespace velora.Models
 {
-    public class EventRequestDTO: IValidatableObject
+    public class EventRequestDto: IValidatableObject
     {
         [Required]
         public string Title { get; set; }
@@ -17,7 +17,7 @@ namespace velora.Models
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            if (EndAt < StartAt)
+            if (EndAt <= StartAt)
                 yield return new ValidationResult("The EndAt is earlier than the StartAt");
         }
     }

@@ -6,8 +6,8 @@ namespace velora.Services
     {
         List<EventResponseDto> GetEvents();
         EventResponseDto? GetEventById(int Id);
-        EventResponseDto AddEvent(EventRequestDTO Event);
-        EventResponseDto? ChangeEvent(int Id, EventRequestDTO Event);
+        EventResponseDto AddEvent(EventRequestDto Event);
+        EventResponseDto? ChangeEvent(int Id, EventRequestDto Event);
         bool RemoveEvent(int Id);
     }
 

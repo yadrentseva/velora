@@ -5,7 +5,7 @@ using velora.Services;
 namespace velora.Controllers
 {
     [ApiController]
-    [Route("api/events")]
+    [Route("events")]
     public class EventController(IEventService _eventService) : ControllerBase
     {
         
@@ -27,7 +27,7 @@ namespace velora.Controllers
         }
 
         [HttpPost]
-        public ActionResult<EventResponseDto> Post([FromBody] EventRequestDTO newEvent)
+        public ActionResult<EventResponseDto> Post([FromBody] EventRequestDto newEvent)
         {
             var result = _eventService.AddEvent(newEvent);
             
@@ -35,7 +35,7 @@ namespace velora.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public ActionResult<EventResponseDto> Put(int id, [FromBody] EventRequestDTO updatedEvent)
+        public ActionResult<EventResponseDto> Put(int id, [FromBody] EventRequestDto updatedEvent)
         {
 
             var result = _eventService.ChangeEvent(id, updatedEvent);
