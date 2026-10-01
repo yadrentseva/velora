@@ -29,11 +29,6 @@ namespace velora.Controllers
         [HttpPost]
         public ActionResult<EventResponseDto> Post([FromBody] EventRequestDTO newEvent)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             var result = _eventService.AddEvent(newEvent);
             
             return Created($"/api/events/{result.Id}", result);
@@ -42,10 +37,6 @@ namespace velora.Controllers
         [HttpPut("{id:int}")]
         public ActionResult<EventResponseDto> Put(int id, [FromBody] EventRequestDTO updatedEvent)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
 
             var result = _eventService.ChangeEvent(id, updatedEvent);
             if (result is null)
@@ -63,7 +54,5 @@ namespace velora.Controllers
 
             return NoContent();
         }
-        
     }
-
 }
