@@ -22,8 +22,8 @@ public static class WebAPIExtensions
                 problemDetails.Title = "Validation Failed";
                 problemDetails.Detail = "One or more validation errors occurred.";
                 problemDetails.Instance = context.HttpContext.Request.Path;
-
-                return new UnprocessableEntityObjectResult(problemDetails)
+                
+                return new BadRequestObjectResult(problemDetails)
                 {
                     ContentTypes = { "application/problem+json" }
                 };

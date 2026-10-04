@@ -219,6 +219,7 @@
         "type": "object",
         "properties": {
           "title": {
+            "maxLength": 500,
             "minLength": 1,
             "type": "string"
           },

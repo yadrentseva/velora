@@ -31,7 +31,7 @@ namespace velora.Controllers
         {
             var result = _eventService.AddEvent(newEvent);
             
-            return Created($"/api/events/{result.Id}", result);
+            return Created($"events/{result.Id}", result);
         }
 
         [HttpPut("{id:int}")]

@@ -6,10 +6,11 @@ namespace velora.Services
     public class EventService(IMapper mapper) : IEventService
     {
         private List<Event> Events { get; set; } = [];
+        private int counterId = 0;
 
         public List<EventResponseDto> GetEvents()
         {
-            var eventsDto = Events.Select(mapper.Map<EventResponseDto>).ToList(); 
+            var eventsDto = Events.Select(mapper.Map<EventResponseDto>).OrderBy(e => e.StartAt).ToList(); 
             return eventsDto;
         }
 
@@ -26,7 +27,8 @@ namespace velora.Services
         public EventResponseDto AddEvent(EventRequestDto newEvent)
         {
             var _event = mapper.Map<Event>(newEvent);
-            _event.Id = (Events.Count == 0) ? 1 : Events.Max(e => e.Id) + 1; 
+            
+            _event.Id = Interlocked.Increment(ref counterId);
             Events.Add(_event);
 
             var eventDto = mapper.Map<EventResponseDto>(_event);
