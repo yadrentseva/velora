@@ -8,10 +8,35 @@ namespace velora.Services
         private List<Event> Events { get; set; } = [];
         private int counterId = 0;
 
-        public List<EventResponseDto> GetEvents()
+        public PaginatedResult GetEvents(string? title, DateTime? from, DateTime? to, int page = 1, int pageSize = 10)
         {
-            var eventsDto = Events.Select(mapper.Map<EventResponseDto>).OrderBy(e => e.StartAt).ToList(); 
-            return eventsDto;
+            var filteredEvents = Events.AsEnumerable();
+
+            if (!string.IsNullOrEmpty(title))
+            {
+                filteredEvents = filteredEvents.Where(e => e.Title.Contains(title, StringComparison.OrdinalIgnoreCase));
+            }
+
+            if (from.HasValue)
+            {
+                filteredEvents = filteredEvents.Where(e => e.StartAt >= from);
+            }
+
+            if (to.HasValue)
+            {
+                filteredEvents = filteredEvents.Where(e => e.EndAt <= to);
+            }
+
+            var eventsDto = filteredEvents.Select(mapper.Map<EventResponseDto>).OrderBy(e => e.StartAt).ToList();
+            var paginatedEventsDto = eventsDto.Skip((page - 1) * pageSize).Take(pageSize).ToArray();
+
+            return new PaginatedResult
+            {
+                TotalCount = Events.Count,
+                CurrentPageNumber = page,
+                PageCount = paginatedEventsDto.Length,
+                Events = paginatedEventsDto
+            };
         }
 
         public EventResponseDto? GetEventById(int id)

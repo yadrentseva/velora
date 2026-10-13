@@ -10,9 +10,9 @@ namespace velora.Controllers
     {
         
         [HttpGet]
-        public ActionResult<List<EventResponseDto>> Get()
+        public ActionResult<List<EventResponseDto>> Get(string? title, DateTime? from, DateTime? to, int page = 1, int pageSize = 10)
         {
-            var result = _eventService.GetEvents();
+            var result = _eventService.GetEvents(title, from, to, page, pageSize);
             return Ok(result);
         }
                 
